@@ -1,5 +1,5 @@
 # CustomSeekBar
-This is a custom view of SeekBar.
+This is custom SeekBar with anim, support HORIZONTAL and VERTICAL.
 
 # Question / Contact Me / Hire Me
 
