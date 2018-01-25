@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.rhino.customseekbar.view.CustomSeekBar
+        android:id="@+id/CustomSeekBarSection1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="#1A000000"
+        app:csb_background_color="#FFAAAAAA"
+        app:csb_progress_height="2dp"
+        app:csb_progress_color="#FF008888"
+        app:csb_section_enable="false"
+        app:csb_section_radius="5dp"
+        app:csb_thumb_radius="12dp"
+        app:csb_thumb_scale_enable="true"
+        app:csb_thumb_point="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.rhino.customseekbar.view.CustomSeekBar
+        android:id="@+id/CustomSeekBarSection2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="#1A000000"
+        app:csb_background_color="#FFAAAAAA"
+        app:csb_progress_height="2dp"
+        app:csb_progress_color="#FF008888"
+        app:csb_section_enable="true"
+        app:csb_section_radius="5dp"
+        app:csb_thumb_radius="12dp"
+        app:csb_max_value="2"/>
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.rhino.customseekbar.view.CustomSeekBar
+        android:id="@+id/CustomSeekBarSection3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="#1A000000"
+        app:csb_background_color="#FFAAAAAA"
+        app:csb_progress_height="2dp"
+        app:csb_progress_color="#FF008888"
+        app:csb_section_enable="false"
+        app:csb_section_radius="5dp"
+        app:csb_thumb_radius="12dp"
+        app:csb_max_value="50"
+        app:csb_overspread_enable="true"/>
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.rhino.customseekbar.view.CustomSeekBar
+        android:id="@+id/CustomSeekBarSection4"
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:background="#1A000000"
+        app:csb_orientation="vertical"
+        app:csb_background_color="#FFAAAAAA"
+        app:csb_progress_height="2dp"
+        app:csb_progress_color="#FF008888"
+        app:csb_section_enable="false"
+        app:csb_section_radius="5dp"
+        app:csb_thumb_radius="12dp"
+        app:csb_max_value="100"
+        app:csb_overspread_enable="false"
+        app:csb_thumb_scale_enable="true"
+        app:csb_thumb_anim_enable="true"/>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="change"
+        android:textSize="16sp"/>
+
+</LinearLayout>
