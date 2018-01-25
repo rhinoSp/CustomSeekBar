@@ -20,7 +20,7 @@ import android.view.animation.DecelerateInterpolator;
 import com.rhino.customseekbar.R;
 
 /**
- * <p>The custom SeekBar with anim. support HORIZONTAL or VERTICAL.</p>
+ * <p>This is custom SeekBar with anim, support HORIZONTAL and VERTICAL.</p>
  *Follow this example:
  *
  * <pre class="prettyprint">
