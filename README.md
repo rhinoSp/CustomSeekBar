@@ -1,6 +1,9 @@
 # CustomSeekBar
 This is custom SeekBar with anim, support HORIZONTAL and VERTICAL.
 
+# Screenshot
+![](https://github.com/rhinoSp/CustomSeekBar/blob/master/screenrecord/screenrecord.gif)  
+
 # Question / Contact Me / Hire Me
 
 Please feel free to ping me at rhino_luo@163.com.
